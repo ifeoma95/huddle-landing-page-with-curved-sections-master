@@ -1,0 +1,155 @@
+:root {
+    /* Primary Colors */
+    --color-pink: hsl(322, 100%, 66%);
+    --color-light-pink: hsl(321, 100%, 78%);
+    --color-light-red: hsl(0, 100%, 63%);
+    
+    /* Neutral Colors */
+    --color-very-dark-cyan: hsl(192, 100%, 9%);
+    --color-very-pale-blue: hsl(207, 100%, 98%);
+    
+    /* Typography */
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+    
+    /* Font Weights */
+    --font-weight-regular: 400;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+    
+    /* Icons (you would load these separately) */
+    --icon-font: 'Font Awesome'; /* or whichever icon font you choose */
+  }
+
+  *{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  }
+
+
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem
+    
+}
+.btn-2{
+    color: var(--color-pink);
+    border: 2px solid var(--color-pink);
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+    text-align: center;
+     
+}
+
+.heading1{
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-heading);
+  
+}
+
+.content{
+  font-weight: var(--font-weight-regular);
+  font-family: var(--font-body);
+  padding: 10px 4rem;
+}
+
+.btn-primary{
+  background-color: var(--color-pink);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.img-1{
+  width: 100%;
+  max-width: 600px;
+}
+
+.features{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem 2rem;
+}
+
+span{
+  display: flex;
+  font-weight: var(--font-weight-bold);
+  font-size: xx-large;
+  font-family: var(--font-heading);
+}
+
+.img2{
+  width: 25%;
+}
+
+.content3{
+  font-weight: 100;
+  font-size: smaller;
+  font-family: var(--font-body);
+}
+
+.grow{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+}
+
+.conversation{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.users{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.community{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  
+}
+
+.end{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
