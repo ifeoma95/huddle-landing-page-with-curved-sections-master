@@ -64,12 +64,14 @@ header{
 .heading1{
   font-weight: var(--font-weight-bold);
   font-family: var(--font-heading);
+  color: black;
   
 }
 
 .content{
   font-weight: var(--font-weight-regular);
   font-family: var(--font-body);
+  color: var(--color-very-dark-cyan);
   padding: 10px 4rem;
 }
 
@@ -118,6 +120,8 @@ span{
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
+
+  
  
 }
 
@@ -150,6 +154,38 @@ span{
   align-items: center;
   justify-content: space-evenly;
 }
+
+
+footer {
+  /* padding: 10px; */
+  background-color: var(--color-very-dark-cyan);
+  color: white;
+
+
+}
+
+.bottom{
+  width: 100%;
+  transform: translateY(5px);
+}
+.together{
+  background-color: var(--color-very-pale-blue);
+  color: white;
+  
+  
+  
+}
+.top{
+  width: 100%;
+  transform: translateY(5px);
+  
+  
+}
+.user{
+  background-color: var(--color-very-pale-blue);
+  color: white;
+}
+
 
 
 
